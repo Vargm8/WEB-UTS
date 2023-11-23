@@ -109,7 +109,27 @@
     /* footer */
     footer {
         padding: 2rem 0;
-    } 
+    }
+    
+    #hero {
+        padding: 10rem 0 10rem 0;
+    }
+
+    #skills {
+        padding: var(--sectionPadding);
+    }
+
+    #services {
+        padding: var(--sectionPadding);
+    }
+
+    #portfolios {
+        padding: var(--sectionPadding);
+    }
+
+    #contact {
+        padding: var(--sectionPadding);
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -120,5 +140,25 @@
 
     .pre-title {
         font-size: 0.7rem;
+    }
+
+    #hero {
+        padding: 20rem 0 0 0;
+    }
+
+    #skills {
+        padding: var(--sectionPadding);
+    }
+
+    #services {
+        padding: var(--sectionPadding);
+    }
+
+    #portfolios {
+        padding: var(--sectionPadding);
+    }
+
+    #contact {
+        padding: var(--sectionPadding);
     }
 }
